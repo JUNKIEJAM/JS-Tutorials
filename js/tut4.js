@@ -1,6 +1,6 @@
 // primitive data types:
 
-//string
+
 var nam='ddd';
 console.log('my string is '+nam)
 console.log('Data Type is '+ (typeof nam));
