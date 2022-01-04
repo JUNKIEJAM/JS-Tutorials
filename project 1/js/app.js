@@ -100,7 +100,7 @@ search.addEventListener("input",function(){
         }
 
         else{
-            element.style.display="none";
+            element.getElementsByClassName.style.display="none";
         }
         //console.log(cardTxt);
     })
