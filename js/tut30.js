@@ -39,6 +39,7 @@ Employee.prototype.slogan=function(){
     return `This company is the best. Regards, ${this.name}`;
 }
 
+//create an object from this constructor
 let harryyy=new Employee("Harry",234,99);
 
 console.log(harryyy);
@@ -54,6 +55,7 @@ function Programmer(name,salary,experience,language){
 
 //inherit the prototype
 Programmer.prototype=Object.create(Employee.prototype);
+
 
 //manually set the constructor
 Programmer.prototype.constructor=Programmer;
