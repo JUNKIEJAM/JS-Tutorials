@@ -46,4 +46,4 @@ console.log(result4);
 // 5. replace() => return new replaced strings with all the replacements
 
 let result5 = s.replace(reg, 'addiee');
-console.log(result5);
+console.log(result5); // will only replace all if global flag used
