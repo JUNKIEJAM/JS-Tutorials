@@ -9,6 +9,8 @@ regex = /harry$/; /// $ at the end means "Ends with"
 regex = /h.rry/; // . says that any character an come here
 regex = /h*rry/ // matches >=0 
 regex = /ha?rryi?t/; // t? says that t is optional
+regex = /h\*rry/;
+// search for actual *
 
 let str = "harry is a good boy and harry is code with harry";
 
