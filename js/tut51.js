@@ -30,6 +30,6 @@ console.log(myArray);
 //using the iterator
 
 const fruits = fruitsIterators(myArray);
-console.log(fruits.next().value);
+console.log(fruits.next().value); // if value is not used, then whole array will be return starting with a new iterator
 console.log(fruits.next().value);
 console.log(fruits.next().value);
