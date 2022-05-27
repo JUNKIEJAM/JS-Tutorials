@@ -1,7 +1,7 @@
 console.log('This is tutorial 17');
 
 document.getElementById("heading").addEventListener
-("mouseover",function(e){
+("click",function(e){
     let variable;
     variable=e.target;
     console.log('You have clicked the heading !');

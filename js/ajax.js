@@ -27,7 +27,7 @@ xhr.getResponseHeader('Content-type','application/x-www-form-urlencoded');
     //xhr.onreadystatechange=function(){
       //  console.log('ready state is ',xhr.readyState);
    // }
-// what to do after resonse is ready
+// what to do after response is ready
     
 
 xhr.onload=function(){

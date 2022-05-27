@@ -1,16 +1,27 @@
 console.log('Welcome to tutorial 14');
 
+let rev_element=document.getElementById('myfirst');
+console.log(rev_element);
+rev_element=rev_element.className;
+console.log(rev_element);
+
+rev_element=rev_element.childNodes;
+console.log(rev_element);
+
+rev_element=rev_element.parentNodes;
+console.log(rev_element);
+
 let element=document.getElementById('child1');
 //element=element.className;
 //element=element.childNodes;
 //element=element.parentNode;
 
 //element.style.color='red';
-element.innerText='Harry is a good coder';
-element.innerHTML='<b>Harry is a good coder</b>';
+//element.innerText='Harry is a good coder';
+//element.innerHTML='<b>Harry is a good coder</b>';
 
 //console.log(className);
-console.log(element.innerText);
+//console.log(element.innerText);
 
 let sel=document.querySelector('#child1');
 sel=document.querySelector('.child');

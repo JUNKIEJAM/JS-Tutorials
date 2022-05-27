@@ -4,8 +4,9 @@ let cont=document.querySelector('.no');
 
 cont=document.querySelector('.container');
 let nodeType=cont.childNodes[1].nodeName;
-console.log(cont.childNodes);//considers comments
-console.log(cont.children); //does not consider comments
+console.log(cont.childNodes);//considers comments,text,newlines
+
+console.log(cont.children); //does not consider comments,text,newlines and considers only elements
 console.log(cont);
 console.log(nodeName);
 
