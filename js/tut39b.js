@@ -21,7 +21,7 @@ function enrollStudent(student){
         else{
             reject();
         }
-    },5000);     // will push after 3 seconds
+    },5000);     // will push after 5 seconds
     
 })
 
